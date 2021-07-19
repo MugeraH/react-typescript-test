@@ -49,6 +49,7 @@ const AddToList: React.FC<IProps> = ({ people, setPeople }) => {
 
   return (
     <div className="AddToList">
+      <h4>Add Person</h4>
       <input
         type="text"
         placeholder="Name"
